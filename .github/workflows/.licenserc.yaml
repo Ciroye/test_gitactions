@@ -16,5 +16,8 @@ header:
       limitations under the License.
   paths: # <6>
     - 'ciro/**.py'
+    
+  paths-ignore:
+    - '.github/**'
 
   comment: on-failure
