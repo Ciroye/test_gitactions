@@ -15,6 +15,6 @@ header:
       See the License for the specific language governing permissions and
       limitations under the License.
   paths: # <6>
-    - '**/ciro/**'
+    - '**/ciro/**.py'
 
   comment: on-failure
