@@ -35,5 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
-      - name: Check License Header
-        uses: apache/skywalking-eyes@main 
+      #- name: Check License Header
+      # uses: apache/skywalking-eyes@main 
