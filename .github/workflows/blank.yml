@@ -37,6 +37,8 @@ jobs:
       
       - name: Check License Header
         uses: apache/skywalking-eyes@main 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/checkout@v1
       - name: Set up Python 3.7
@@ -58,6 +60,9 @@ jobs:
           git commit -am "fixup: Format Python code with Black"
           git push
         
+
+        
+
 
         
 
