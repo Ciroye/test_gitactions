@@ -37,6 +37,8 @@ jobs:
       
       - name: Check License Header
         uses: apache/skywalking-eyes@main 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   black:
     # The type of runner that the job will run on
@@ -64,6 +66,9 @@ jobs:
           git commit -am "fixup: Format Python code with Black"
           git push
         
+
+        
+
 
         
 
