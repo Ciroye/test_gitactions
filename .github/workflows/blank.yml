@@ -37,3 +37,5 @@ jobs:
       
       - name: Check License Header
         uses: apache/skywalking-eyes@main 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
