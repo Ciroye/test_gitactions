@@ -1,2 +1,2 @@
 def dani():
-    return 'dk'
+    return "dk"
