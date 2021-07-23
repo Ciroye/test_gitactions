@@ -1,3 +1,3 @@
 def ciro():
-    
-    return 'ciro'
+
+    return "ciro"
