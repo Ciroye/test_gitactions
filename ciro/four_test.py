@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 def ciro():
-    return 'ciro'
+    return 'ciros'

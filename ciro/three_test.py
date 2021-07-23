@@ -1,2 +1,0 @@
-def dani():
-    return 'dk'
